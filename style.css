@@ -1,17 +1,19 @@
 /* Aspecto general */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
 
 /* Cabecera */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #2c3e50; /* Azul oscuro */
+  color: #ecf0f1; /* Blanco hueso */
   padding: 20px;
   text-align: center;
+  border-bottom: 5px solid #3498db;
 }
 
 /* Navegación */
@@ -27,17 +29,24 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Contenido principal */
 main {
   padding: 20px;
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 /* Pie de página */
 footer {
-  background-color: #333;
+  background-color: #2c3e50;
   color: #fff;
   text-align: center;
   padding: 10px;
+  margin-top: 20px;
 }
